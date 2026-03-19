@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\unity\u9879\u76EE\\mymmo\\src\\client\\assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\unity\u9879\u76EE\\mymmo\\src\\client\\assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\assets\\scripts\\ui\\uilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\assets\\scripts\\ui\\uiregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\assets\\scripts\\ui\\uimessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\assets\\scripts\\ui\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetClient.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAkwBMBAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T15:49:10.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\UserService.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\UserService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T15:10:22.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIMessageBox.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:56:10.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageBox.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\MessageBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MessageBox.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\MessageBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MessageBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:55:31.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIRegister.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UIRegister.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIRegister.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UIRegister.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIRegister.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:46:38.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UILogin.cs",
+              "DocumentMoniker": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UILogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UILogin.cs",
+              "ToolTip": "D:\\unity\u9879\u76EE\\mymmo\\Src\\Client\\Assets\\Scripts\\UI\\UILogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UILogin.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:46:28.895Z",
+              "EditorCaption": ""
             }
           ]
         }

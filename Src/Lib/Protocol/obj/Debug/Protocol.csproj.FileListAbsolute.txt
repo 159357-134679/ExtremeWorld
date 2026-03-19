@@ -7,3 +7,12 @@ D:\unity项目\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInpu
 D:\unity项目\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.Up2Date
 D:\unity项目\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.dll
 D:\unity项目\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.pdb
+D:\unity项目\mymmo\Src\Lib\Protocol\bin\Debug\Protocol.dll
+D:\unity项目\mymmo\Src\Lib\Protocol\bin\Debug\Protocol.pdb
+D:\unity项目\mymmo\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
+D:\unity项目\mymmo\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+D:\unity项目\mymmo\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
+D:\unity项目\mymmo\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+D:\unity项目\mymmo\Src\Lib\Protocol\obj\Debug\Protocol.csproj.Up2Date
+D:\unity项目\mymmo\Src\Lib\Protocol\obj\Debug\Protocol.dll
+D:\unity项目\mymmo\Src\Lib\Protocol\obj\Debug\Protocol.pdb
