@@ -1,0 +1,482 @@
+Using pre-set license
+Built from 'tuanjie/1.8/staging' branch; Version is '2022.3.62t2 (24637c95313f) revision 2384764'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 22389 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Tuanjie\Hub\Editor\2022.3.62t2\Editor\Tuanjie.exe
+-adb2
+-batchMode
+-noUpm
+-disableFMOD
+-name
+AssetImportWorker0
+-projectPath
+D:/unity项目/mmorpg - 副本/Src/Client
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52643
+Successfully changed project path to: D:/unity项目/mmorpg - 副本/Src/Client
+D:/unity项目/mmorpg - 副本/Src/Client
+[Memory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20200]  Target information:
+
+Player connection [20200]  * "[IP] 192.168.10.19 [Port] 0 [Flags] 2 [Guid] 1047157335 [EditorId] 1047157335 [Version] 1048832 [Id] WindowsEditor(7,carrier) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+AS: AutoStreaming module initializing.
+[LiveLink] LiveLink library is loaded successfully. Initializing...
+InitScreenManager.Refreshing native plugins compatible for Editor in 32.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62t2 (24637c95313f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity项目/mmorpg - 副本/Src/Client/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     11194 MB
+    Driver:   31.0.21912.3005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled tuanjie dll's ...
+Register platform support module: C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/UnityEditor.WeixinMiniGame.Extensions.dll
+Register platform support module: C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.073393 seconds.
+- Loaded All Assemblies, in  0.744 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (173ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Assets/References/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.043 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (628ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 12.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2509 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (54.8 KB). Loaded Objects now: 3004.
+Memory consumption went from 100.9 MB to 100.9 MB.
+Total: 8.499600 ms (FindLiveObjects: 0.283900 ms CreateObjectMapping: 0.077400 ms MarkObjects: 7.977900 ms  DeleteObjects: 0.158500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5739.335815 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_dimian.prefab
+  artifactKey: Guid(9a9244d383e27d7478d2419e9fae22bc) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_dimian.prefab using Guid(9a9244d383e27d7478d2419e9fae22bc) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.06 seconds
+ -> (artifact id: '55a268b646cd7479f0b6a631ebf37a55') in 0.242112 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_001.prefab
+  artifactKey: Guid(28ac9cc3b8b98ad4eb246c47000bd571) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_001.prefab using Guid(28ac9cc3b8b98ad4eb246c47000bd571) Importer(PreviewImporter)  -> (artifact id: '42eab2505066297931a0e9b419795ee2') in 0.172332 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Levels/Map03/Materials/common_boss_jiaotingwangzuo_02.mat
+  artifactKey: Guid(8202a55b303dab44fabdca6b64a5fc03) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/common_boss_jiaotingwangzuo_02.mat using Guid(8202a55b303dab44fabdca6b64a5fc03) Importer(PreviewImporter)  -> (artifact id: '8ad0a99bc353672158a01392a1f5da7f') in 0.041286 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/chuang.mat
+  artifactKey: Guid(7004a17f6257c5d43a0dffd5b0ccc46a) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Models/other/Materials/chuang.mat using Guid(7004a17f6257c5d43a0dffd5b0ccc46a) Importer(PreviewImporter)  -> (artifact id: '9c7b6f453fd4d9f7218c9ebc7c90387e') in 0.103134 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Levels/Map03/Prefabs/moon.prefab
+  artifactKey: Guid(7d32afeecb3f6eb48b509e2a9794a5f9) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/moon.prefab using Guid(7d32afeecb3f6eb48b509e2a9794a5f9) Importer(PreviewImporter)  -> (artifact id: '0f5961aaf3bfc1bb2f3e2268480b5849') in 0.036427 seconds
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/n_034.mat
+  artifactKey: Guid(665ca59d806620b42a84102b6ae15035) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Models/other/Materials/n_034.mat using Guid(665ca59d806620b42a84102b6ae15035) Importer(PreviewImporter)  -> (artifact id: 'd8af031ef73aaff9f494169ffc426fcb') in 0.041384 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_e.prefab
+  artifactKey: Guid(ade664e9f9f29e3418e5fcfd90da045c) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_e.prefab using Guid(ade664e9f9f29e3418e5fcfd90da045c) Importer(PreviewImporter)  -> (artifact id: 'eaf4187ad40c2973304a8af7b216e789') in 0.024131 seconds
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka09_dimian01_4.mat
+  artifactKey: Guid(928a5c7102030d149a38388f79e8c112) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/section03_guanka09_dimian01_4.mat using Guid(928a5c7102030d149a38388f79e8c112) Importer(PreviewImporter)  -> (artifact id: 'cc41f4c17e84d87b3f38e79bfa4042fb') in 0.020605 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_shuijing_001.prefab
+  artifactKey: Guid(3e054cd12fc9c164b8f6f91cc533e3b4) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_shuijing_001.prefab using Guid(3e054cd12fc9c164b8f6f91cc533e3b4) Importer(PreviewImporter)  -> (artifact id: '991dc7aa440e6c96322343285f83230b') in 0.128851 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Characters/Warrior/fbx/Warrior_AtkA.FBX
+  artifactKey: Guid(90d8b01553960ce4d979ffe7bd91c5fa) Importer(PreviewImporter)
+Start importing Assets/Models/Characters/Warrior/fbx/Warrior_AtkA.FBX using Guid(90d8b01553960ce4d979ffe7bd91c5fa) Importer(PreviewImporter)  -> (artifact id: '637b7ec34b3cc294d9a5fa73ca7cccbc') in 0.261674 seconds
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_c.prefab
+  artifactKey: Guid(13108de4f02db7c40ac634b565492ed5) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_c.prefab using Guid(13108de4f02db7c40ac634b565492ed5) Importer(PreviewImporter)  -> (artifact id: '7c1923ba65d569f54988ab2ac7e51582') in 0.034790 seconds
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_4.mat
+  artifactKey: Guid(05877bf000f8fb44e9868e6d29498d19) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_4.mat using Guid(05877bf000f8fb44e9868e6d29498d19) Importer(PreviewImporter)  -> (artifact id: 'ee0c30f59c743cf6a081823d46c0300b') in 0.023842 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_1.mat
+  artifactKey: Guid(22269c3bab531c34fbaabf493bb42068) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_1.mat using Guid(22269c3bab531c34fbaabf493bb42068) Importer(PreviewImporter)  -> (artifact id: 'be7b6df850a901a14ceded765b7a9ad2') in 0.022603 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Levels/Map03/Materials/effect_Fire_2.mat
+  artifactKey: Guid(8b34b47c5f9cc2740a261c9f2c0608cb) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/effect_Fire_2.mat using Guid(8b34b47c5f9cc2740a261c9f2c0608cb) Importer(PreviewImporter)  -> (artifact id: '79abad73c8306266cd9c1e8d28cc0d74') in 0.023376 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_d.prefab
+  artifactKey: Guid(537056537c82ced46b888599cb5fe22e) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_d.prefab using Guid(537056537c82ced46b888599cb5fe22e) Importer(PreviewImporter)  -> (artifact id: '311cb4625c9e9a0cb033cd842a40c41b') in 0.025099 seconds
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_002.prefab
+  artifactKey: Guid(08806fa9fb78d4a4aa8be10736dd23bc) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_002.prefab using Guid(08806fa9fb78d4a4aa8be10736dd23bc) Importer(PreviewImporter)  -> (artifact id: '47ecfa3f93d6696e15ad31655f2bc53d') in 0.015959 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Levels/MainCity/Prefabs/skybox/skybox_stsm_yun_002.prefab
+  artifactKey: Guid(bac0d4826b94b3e4d8127c32023bc0c3) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/skybox/skybox_stsm_yun_002.prefab using Guid(bac0d4826b94b3e4d8127c32023bc0c3) Importer(PreviewImporter)  -> (artifact id: 'e96aa855144679eb9179e956cf916fa3') in 0.050258 seconds
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Objects/TreasureBox/TreasureBox.FBX
+  artifactKey: Guid(fa186fc63e2685848a685517133f782e) Importer(PreviewImporter)
+Start importing Assets/Models/Objects/TreasureBox/TreasureBox.FBX using Guid(fa186fc63e2685848a685517133f782e) Importer(PreviewImporter)  -> (artifact id: '2ccfdf162cab9cebb6d3ee742c264aff') in 0.102533 seconds
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_2.mat
+  artifactKey: Guid(fdf51add301ba894abccdbe57d906e2f) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_2.mat using Guid(fdf51add301ba894abccdbe57d906e2f) Importer(PreviewImporter)  -> (artifact id: '28a47a9c5ab82962f46071e457db287a') in 0.017360 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Levels/Map03/Prefabs/building_section03_guanka10_5.prefab
+  artifactKey: Guid(4eba01d5cdae4ad459647aa696de7bf0) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/building_section03_guanka10_5.prefab using Guid(4eba01d5cdae4ad459647aa696de7bf0) Importer(PreviewImporter)  -> (artifact id: '82f751c38b18b6eeb918fad1141b70c9') in 0.014270 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Levels/MainCity/Prefabs/other/stsm_other_muxiang_001.prefab
+  artifactKey: Guid(b271c24a48ae7a74a95dc221d0531459) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/other/stsm_other_muxiang_001.prefab using Guid(b271c24a48ae7a74a95dc221d0531459) Importer(PreviewImporter)  -> (artifact id: '95ebeb6107675b1a2a673723b78d25f6') in 0.018345 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Levels/Map03/Materials/common_city_dahuaping.mat
+  artifactKey: Guid(49c40c00b43eec34783c8885921f6cb2) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/common_city_dahuaping.mat using Guid(49c40c00b43eec34783c8885921f6cb2) Importer(PreviewImporter)  -> (artifact id: 'f80619ab39ae0cf150c652e15236b2db') in 0.014554 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Levels/Map03/Materials/effect_Fire_1.mat
+  artifactKey: Guid(3aec725a0619ebf42b804a287ebbe7b3) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Materials/effect_Fire_1.mat using Guid(3aec725a0619ebf42b804a287ebbe7b3) Importer(PreviewImporter)  -> (artifact id: '7a962229ea99d8b8ca80116af5abae2d') in 0.019101 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Levels/Map03/Prefabs/common_city_tianshi.prefab
+  artifactKey: Guid(0d4a02cc69f38c44b81ffa791a4680ca) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/common_city_tianshi.prefab using Guid(0d4a02cc69f38c44b81ffa791a4680ca) Importer(PreviewImporter)  -> (artifact id: '391c93a4ca9265e8627eefebad1b415b') in 0.021172 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Characters/Warrior/fbx/Warrior_SkillC.FBX
+  artifactKey: Guid(27686010f335f924794ad4a11eed5d2b) Importer(PreviewImporter)
+Start importing Assets/Models/Characters/Warrior/fbx/Warrior_SkillC.FBX using Guid(27686010f335f924794ad4a11eed5d2b) Importer(PreviewImporter)  -> (artifact id: '883b8b88b0ba01fc1cd996c5b99bfaef') in 0.042900 seconds
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_zahuopu_001.prefab
+  artifactKey: Guid(46d44ed4001296743ace9ef0eefb41ea) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_zahuopu_001.prefab using Guid(46d44ed4001296743ace9ef0eefb41ea) Importer(PreviewImporter)  -> (artifact id: 'b1600252ad725a06285d610445c55036') in 0.027338 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_penshuichi_002.prefab
+  artifactKey: Guid(37192fb0fd760a2449f767588e45124c) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_penshuichi_002.prefab using Guid(37192fb0fd760a2449f767588e45124c) Importer(PreviewImporter)  -> (artifact id: '4d55fbd6b2ce4b5ef9eb7208e49cac0d') in 0.047448 seconds
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Levels/Map03/Prefabs/building_city_jiaotangxiaozhuzi.prefab
+  artifactKey: Guid(f199a0ca85e5a8845ac696c91e7ef4bb) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/building_city_jiaotangxiaozhuzi.prefab using Guid(f199a0ca85e5a8845ac696c91e7ef4bb) Importer(PreviewImporter)  -> (artifact id: '8943f3f201c2ba373f44cbf4474a1d96') in 0.021829 seconds
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Levels/Map03/Prefabs/building_section03_guanka10_6.prefab
+  artifactKey: Guid(3eba9390a39753544be4ec7c11980264) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/building_section03_guanka10_6.prefab using Guid(3eba9390a39753544be4ec7c11980264) Importer(PreviewImporter)  -> (artifact id: 'd17b2e065a803a9252f6b52e9265c99d') in 0.014402 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Fonts/Numbers.mat
+  artifactKey: Guid(f66c65fb586ebe34f8385e9211706d07) Importer(PreviewImporter)
+Start importing Assets/UI/Fonts/Numbers.mat using Guid(f66c65fb586ebe34f8385e9211706d07) Importer(PreviewImporter)  -> (artifact id: '079cdcabf67938fbad8a2ffcef68519c') in 0.052323 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka10_5_po.prefab
+  artifactKey: Guid(93da49e83bad82347ab11dc5d42349ff) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka10_5_po.prefab using Guid(93da49e83bad82347ab11dc5d42349ff) Importer(PreviewImporter)  -> (artifact id: 'c677be16b893c857a1dfb10d2a0cd473') in 0.018540 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Levels/Map03/Prefabs/effect_Fire_red02.prefab
+  artifactKey: Guid(73bade9d6172b4a478a3e2e437bcb112) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/effect_Fire_red02.prefab using Guid(73bade9d6172b4a478a3e2e437bcb112) Importer(PreviewImporter)  -> (artifact id: '4dd0b75dd6eb8820d6b846f9ffc67056') in 0.016630 seconds
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UI/Prefabs/Button.prefab
+  artifactKey: Guid(1ee80ae8a1eeee345919b6fd845a9de7) Importer(PreviewImporter)
+Start importing Assets/UI/Prefabs/Button.prefab using Guid(1ee80ae8a1eeee345919b6fd845a9de7) Importer(PreviewImporter)  -> (artifact id: 'eee719dff9061a7accf70683773ab99e') in 0.023806 seconds
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_jiuguan_001.prefab
+  artifactKey: Guid(89bcb5b250cf8a844982dc62721e07d7) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_jiuguan_001.prefab using Guid(89bcb5b250cf8a844982dc62721e07d7) Importer(PreviewImporter)  -> (artifact id: 'a4cf980e5d6687c161a3dc0aee3b773a') in 0.017604 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_diaoxiang_001.prefab
+  artifactKey: Guid(a9d09c3f2bb490f4d9642081f4b0dd09) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_diaoxiang_001.prefab using Guid(a9d09c3f2bb490f4d9642081f4b0dd09) Importer(PreviewImporter)  -> (artifact id: 'd13262be8d45d8d36a9b6bf6be95f015') in 0.022757 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UI/Fonts/msyh.ttc
+  artifactKey: Guid(9cdf50e78f84cd44498bdc93925ab83e) Importer(PreviewImporter)
+Start importing Assets/UI/Fonts/msyh.ttc using Guid(9cdf50e78f84cd44498bdc93925ab83e) Importer(PreviewImporter)  -> (artifact id: 'b7548f7bafa529416612b5379c1122ec') in 0.051116 seconds
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/Characters/Warrior/Material #82.mat
+  artifactKey: Guid(65f14cd9e9e1cca45898e3bfad5b5861) Importer(PreviewImporter)
+Start importing Assets/Models/Characters/Warrior/Material #82.mat using Guid(65f14cd9e9e1cca45898e3bfad5b5861) Importer(PreviewImporter)  -> (artifact id: '2ca6bedb293ef053d6c73c05dfea1e7e') in 0.020356 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Levels/MainCity/Prefabs/other/stsm_other_mutong_001.prefab
+  artifactKey: Guid(c7815ca7258e4cc47a67fc835ad9670f) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/other/stsm_other_mutong_001.prefab using Guid(c7815ca7258e4cc47a67fc835ad9670f) Importer(PreviewImporter)  -> (artifact id: '279eec557631ed4166296d40d1632509') in 0.015864 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Levels/MainCity/Prefabs/GameObject.prefab
+  artifactKey: Guid(ee930da01bde62745a2f4d64c217d25f) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/GameObject.prefab using Guid(ee930da01bde62745a2f4d64c217d25f) Importer(PreviewImporter)  -> (artifact id: 'b6b32c597f5d2b6587122b4968585208') in 0.002608 seconds
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Levels/Map03/Prefabs/effect_Fire_red.prefab
+  artifactKey: Guid(b6be55f7a03c5624faf3059c960ae6c7) Importer(PreviewImporter)
+Start importing Assets/Levels/Map03/Prefabs/effect_Fire_red.prefab using Guid(b6be55f7a03c5624faf3059c960ae6c7) Importer(PreviewImporter)  -> (artifact id: '8f5e10bf08d477000223fad010510ad0') in 0.018753 seconds
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_chengmen_002.prefab
+  artifactKey: Guid(4d6f3b13ae09f0c4a919e3e980091999) Importer(PreviewImporter)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_chengmen_002.prefab using Guid(4d6f3b13ae09f0c4a919e3e980091999) Importer(PreviewImporter)  -> (artifact id: '4247456bc4c33433442fd71682ec3c6d') in 0.021016 seconds
+Number of asset objects unloaded after import = 9

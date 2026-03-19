@@ -1,0 +1,3253 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 100,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "D:\\unity项目\\mymmo\\Src\\Clien",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
+      "DisplayName": "Writing Assembly-CSharp.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 217,
+      "PayloadLength": 32715,
+      "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
+      "DisplayName": "Writing Assembly-CSharp.rsp2",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 33019,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
+      "DisplayName": "Csc Assembly-CSharp",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2\"",
+      "Inputs": [
+        "Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll",
+        "Assets/References/Common.dll",
+        "Assets/References/log4net.dll",
+        "Assets/References/protobuf-net.dll",
+        "Assets/References/Protocol.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.HMISimulatorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InfinityModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.OpenHarmonyJSModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
+        "Assets/Scripts/Assets/Resloader.cs",
+        "Assets/Scripts/LoadingManager.cs",
+        "Assets/Scripts/Log/UnityLogger.cs",
+        "Assets/Scripts/Managers/DataManager.cs",
+        "Assets/Scripts/Models/User.cs",
+        "Assets/Scripts/Network/NetClient.cs",
+        "Assets/Scripts/Scene/SceneManager.cs",
+        "Assets/Scripts/Services/UserService.cs",
+        "Assets/Scripts/UI/MessageBox.cs",
+        "Assets/Scripts/UI/UICharacterSelect.cs",
+        "Assets/Scripts/UI/UICharacterView.cs",
+        "Assets/Scripts/UI/UICharInfo.cs",
+        "Assets/Scripts/UI/UILogin.cs",
+        "Assets/Scripts/UI/UIMessageBox.cs",
+        "Assets/Scripts/UI/UIRegister.cs",
+        "Assets/Scripts/Utilities/GameUtil.cs",
+        "Assets/Scripts/Utilities/MonoSingleton.cs",
+        "Assets/Scripts/Utilities/Singleton.cs",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+      ],
+      "OutputFlags": [
+        2,
+        2,
+        2
+      ],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        94
+      ],
+      "ToUseDependencies": [
+        1,
+        3
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "DOTNET_MULTILEVEL_LOOKUP",
+          "Value": "0"
+        }
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_24D455816FA73927.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.CoreModule.dll_24D455816FA73927",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.CoreModule.dll_24D455816FA73927.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.CoreModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_24D455816FA73927.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        95,
+        96
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_C1B1780A6A4DCE4A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.DeviceSimulatorModule.dll_C1B1780A6A4DCE4A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.DeviceSimulatorModule.dll_C1B1780A6A4DCE4A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.DeviceSimulatorModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_C1B1780A6A4DCE4A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_7DD0260E4B5A5E18.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.DiagnosticsModule.dll_7DD0260E4B5A5E18",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.DiagnosticsModule.dll_7DD0260E4B5A5E18.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.DiagnosticsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_7DD0260E4B5A5E18.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_7F565DF221E287BE.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.dll_7F565DF221E287BE",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.dll_7F565DF221E287BE.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.dll_7F565DF221E287BE.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_475E5D2A3F2416DA.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.EditorToolbarModule.dll_475E5D2A3F2416DA",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.EditorToolbarModule.dll_475E5D2A3F2416DA.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.EditorToolbarModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_475E5D2A3F2416DA.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_A93516BC985AAEEF.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.GraphViewModule.dll_A93516BC985AAEEF",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.GraphViewModule.dll_A93516BC985AAEEF.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.GraphViewModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_A93516BC985AAEEF.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.HMISimulatorModule.dll_4F5AFF6E802CB588.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.HMISimulatorModule.dll_4F5AFF6E802CB588",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.HMISimulatorModule.dll_4F5AFF6E802CB588.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.HMISimulatorModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.HMISimulatorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.HMISimulatorModule.dll_4F5AFF6E802CB588.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_649B4F9E9AB306F4.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.PresetsUIModule.dll_649B4F9E9AB306F4",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.PresetsUIModule.dll_649B4F9E9AB306F4.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.PresetsUIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_649B4F9E9AB306F4.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_08DFA71BA4315A71.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.QuickSearchModule.dll_08DFA71BA4315A71",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.QuickSearchModule.dll_08DFA71BA4315A71.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.QuickSearchModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_08DFA71BA4315A71.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_6AFDCDE83E10C112.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.SceneTemplateModule.dll_6AFDCDE83E10C112",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.SceneTemplateModule.dll_6AFDCDE83E10C112.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.SceneTemplateModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_6AFDCDE83E10C112.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_E7E4F9C48D7D7BFD.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.SceneViewModule.dll_E7E4F9C48D7D7BFD",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.SceneViewModule.dll_E7E4F9C48D7D7BFD.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.SceneViewModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_E7E4F9C48D7D7BFD.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_C9AD797C080F72C5.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.TextCoreFontEngineModule.dll_C9AD797C080F72C5",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.TextCoreFontEngineModule.dll_C9AD797C080F72C5.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.TextCoreFontEngineModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_C9AD797C080F72C5.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_1195AFED97932BE3.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.TextCoreTextEngineModule.dll_1195AFED97932BE3",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.TextCoreTextEngineModule.dll_1195AFED97932BE3.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.TextCoreTextEngineModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_1195AFED97932BE3.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_FDBDC3D90B132823.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.UIBuilderModule.dll_FDBDC3D90B132823",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UIBuilderModule.dll_FDBDC3D90B132823.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.UIBuilderModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_FDBDC3D90B132823.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_4F2359363C518D03.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.UIElementsModule.dll_4F2359363C518D03",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UIElementsModule.dll_4F2359363C518D03.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.UIElementsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_4F2359363C518D03.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_B8085015B2FCF59A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.UIElementsSamplesModule.dll_B8085015B2FCF59A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UIElementsSamplesModule.dll_B8085015B2FCF59A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.UIElementsSamplesModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_B8085015B2FCF59A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_6579E97BCAB97B5D.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.UnityConnectModule.dll_6579E97BCAB97B5D",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UnityConnectModule.dll_6579E97BCAB97B5D.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.UnityConnectModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_6579E97BCAB97B5D.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_9DA3397F3E86E8AF.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AccessibilityModule.dll_9DA3397F3E86E8AF",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AccessibilityModule.dll_9DA3397F3E86E8AF.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AccessibilityModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_9DA3397F3E86E8AF.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_D76BCC01C040E89B.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AIModule.dll_D76BCC01C040E89B",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AIModule.dll_D76BCC01C040E89B.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_D76BCC01C040E89B.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_CD6C42098570FBD9.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AndroidJNIModule.dll_CD6C42098570FBD9",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AndroidJNIModule.dll_CD6C42098570FBD9.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AndroidJNIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_CD6C42098570FBD9.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_77BA92E572B78395.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AnimationModule.dll_77BA92E572B78395",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AnimationModule.dll_77BA92E572B78395.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AnimationModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_77BA92E572B78395.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_90DE91051D5E4764.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ARModule.dll_90DE91051D5E4764",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ARModule.dll_90DE91051D5E4764.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ARModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_90DE91051D5E4764.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_4CC8DA0D06980F63.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AssetBundleModule.dll_4CC8DA0D06980F63",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AssetBundleModule.dll_4CC8DA0D06980F63.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AssetBundleModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_4CC8DA0D06980F63.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_CFE7C488351A7747.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.AudioModule.dll_CFE7C488351A7747",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AudioModule.dll_CFE7C488351A7747.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.AudioModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_CFE7C488351A7747.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_36D021830F37562B.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ClothModule.dll_36D021830F37562B",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClothModule.dll_36D021830F37562B.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ClothModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_36D021830F37562B.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_E5165E917C414E23.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ClusterInputModule.dll_E5165E917C414E23",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClusterInputModule.dll_E5165E917C414E23.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ClusterInputModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_E5165E917C414E23.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_C75E3A7BDA08DBCE.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ClusterRendererModule.dll_C75E3A7BDA08DBCE",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClusterRendererModule.dll_C75E3A7BDA08DBCE.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ClusterRendererModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_C75E3A7BDA08DBCE.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_E5DF334DD51AB750.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ContentLoadModule.dll_E5DF334DD51AB750",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ContentLoadModule.dll_E5DF334DD51AB750.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ContentLoadModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_E5DF334DD51AB750.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_47F528D417ACA452.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.CoreModule.dll_47F528D417ACA452",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.CoreModule.dll_47F528D417ACA452.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.CoreModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_47F528D417ACA452.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_994F22B5A6AC1F2A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.CrashReportingModule.dll_994F22B5A6AC1F2A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.CrashReportingModule.dll_994F22B5A6AC1F2A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.CrashReportingModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_994F22B5A6AC1F2A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_8EB3013053C876EF.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.DirectorModule.dll_8EB3013053C876EF",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.DirectorModule.dll_8EB3013053C876EF.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.DirectorModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_8EB3013053C876EF.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_B1FAA4CA805614A3.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.dll_B1FAA4CA805614A3",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.dll_B1FAA4CA805614A3.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_B1FAA4CA805614A3.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_94046299C6294810.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.DSPGraphModule.dll_94046299C6294810",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.DSPGraphModule.dll_94046299C6294810.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.DSPGraphModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_94046299C6294810.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_F7B98C244BB1ECCA.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.GameCenterModule.dll_F7B98C244BB1ECCA",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.GameCenterModule.dll_F7B98C244BB1ECCA.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.GameCenterModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_F7B98C244BB1ECCA.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_6FA8150F5BEFD0B5.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.GIModule.dll_6FA8150F5BEFD0B5",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.GIModule.dll_6FA8150F5BEFD0B5.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.GIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_6FA8150F5BEFD0B5.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_256644C230013A49.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.GridModule.dll_256644C230013A49",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.GridModule.dll_256644C230013A49.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.GridModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_256644C230013A49.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_F90350EB4DEA9F17.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.HotReloadModule.dll_F90350EB4DEA9F17",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.HotReloadModule.dll_F90350EB4DEA9F17.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.HotReloadModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_F90350EB4DEA9F17.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_3350382C5C2D93C2.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ImageConversionModule.dll_3350382C5C2D93C2",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ImageConversionModule.dll_3350382C5C2D93C2.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ImageConversionModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_3350382C5C2D93C2.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_084763EEFB4C0B28.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.IMGUIModule.dll_084763EEFB4C0B28",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.IMGUIModule.dll_084763EEFB4C0B28.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.IMGUIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_084763EEFB4C0B28.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InfinityModule.dll_CE21305B9F72A01B.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.InfinityModule.dll_CE21305B9F72A01B",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.InfinityModule.dll_CE21305B9F72A01B.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.InfinityModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InfinityModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InfinityModule.dll_CE21305B9F72A01B.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_DE0DF52B9E89C554.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.InputLegacyModule.dll_DE0DF52B9E89C554",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.InputLegacyModule.dll_DE0DF52B9E89C554.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.InputLegacyModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_DE0DF52B9E89C554.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_365D8C38AB529BEB.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.InputModule.dll_365D8C38AB529BEB",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.InputModule.dll_365D8C38AB529BEB.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.InputModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_365D8C38AB529BEB.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_FDBAC2BB3DC24939.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.JSONSerializeModule.dll_FDBAC2BB3DC24939",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.JSONSerializeModule.dll_FDBAC2BB3DC24939.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.JSONSerializeModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_FDBAC2BB3DC24939.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_236328E413BD411C.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.LocalizationModule.dll_236328E413BD411C",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.LocalizationModule.dll_236328E413BD411C.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.LocalizationModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_236328E413BD411C.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.OpenHarmonyJSModule.dll_C3E0E0DEABECF236.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.OpenHarmonyJSModule.dll_C3E0E0DEABECF236",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.OpenHarmonyJSModule.dll_C3E0E0DEABECF236.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.OpenHarmonyJSModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.OpenHarmonyJSModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.OpenHarmonyJSModule.dll_C3E0E0DEABECF236.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_EC616C0214BDAAB8.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ParticleSystemModule.dll_EC616C0214BDAAB8",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ParticleSystemModule.dll_EC616C0214BDAAB8.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ParticleSystemModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_EC616C0214BDAAB8.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_9E56C9E5D1390B11.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.PerformanceReportingModule.dll_9E56C9E5D1390B11",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.PerformanceReportingModule.dll_9E56C9E5D1390B11.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.PerformanceReportingModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_9E56C9E5D1390B11.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_C46082D613B47B2A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.Physics2DModule.dll_C46082D613B47B2A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.Physics2DModule.dll_C46082D613B47B2A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.Physics2DModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_C46082D613B47B2A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_7E696A763197E0F8.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.PhysicsModule.dll_7E696A763197E0F8",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.PhysicsModule.dll_7E696A763197E0F8.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.PhysicsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_7E696A763197E0F8.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_C0F93A66ED21FDFC.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ProfilerModule.dll_C0F93A66ED21FDFC",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ProfilerModule.dll_C0F93A66ED21FDFC.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ProfilerModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_C0F93A66ED21FDFC.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_24F4CB62BE9D5106.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.PropertiesModule.dll_24F4CB62BE9D5106",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.PropertiesModule.dll_24F4CB62BE9D5106.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.PropertiesModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_24F4CB62BE9D5106.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1462A9A0D1573FF3.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1462A9A0D1573FF3",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1462A9A0D1573FF3.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1462A9A0D1573FF3.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_17A27040522E759B.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.ScreenCaptureModule.dll_17A27040522E759B",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ScreenCaptureModule.dll_17A27040522E759B.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ScreenCaptureModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_17A27040522E759B.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_B7617701D35B8F12.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.SharedInternalsModule.dll_B7617701D35B8F12",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.SharedInternalsModule.dll_B7617701D35B8F12.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.SharedInternalsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_B7617701D35B8F12.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_E0E5FEB46D218244.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.SpriteMaskModule.dll_E0E5FEB46D218244",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.SpriteMaskModule.dll_E0E5FEB46D218244.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.SpriteMaskModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_E0E5FEB46D218244.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_662A0767BC3A476D.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.SpriteShapeModule.dll_662A0767BC3A476D",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.SpriteShapeModule.dll_662A0767BC3A476D.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.SpriteShapeModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_662A0767BC3A476D.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_2C4F8035C23F3AD3.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.StreamingModule.dll_2C4F8035C23F3AD3",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.StreamingModule.dll_2C4F8035C23F3AD3.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.StreamingModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_2C4F8035C23F3AD3.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_08FA947F0D9238E1.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.SubstanceModule.dll_08FA947F0D9238E1",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.SubstanceModule.dll_08FA947F0D9238E1.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.SubstanceModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_08FA947F0D9238E1.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_4B9365163B696A57.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.SubsystemsModule.dll_4B9365163B696A57",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.SubsystemsModule.dll_4B9365163B696A57.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.SubsystemsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_4B9365163B696A57.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_98AFE5E5075629E6.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TerrainModule.dll_98AFE5E5075629E6",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TerrainModule.dll_98AFE5E5075629E6.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TerrainModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_98AFE5E5075629E6.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_ECDC14D52E00A545.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TerrainPhysicsModule.dll_ECDC14D52E00A545",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TerrainPhysicsModule.dll_ECDC14D52E00A545.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TerrainPhysicsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_ECDC14D52E00A545.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_480CF4CF1B0D3190.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TextCoreFontEngineModule.dll_480CF4CF1B0D3190",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TextCoreFontEngineModule.dll_480CF4CF1B0D3190.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TextCoreFontEngineModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_480CF4CF1B0D3190.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_8FF52B40AA90EAAE.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TextCoreTextEngineModule.dll_8FF52B40AA90EAAE",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TextCoreTextEngineModule.dll_8FF52B40AA90EAAE.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TextCoreTextEngineModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_8FF52B40AA90EAAE.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_40E1E24B0965F590.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TextRenderingModule.dll_40E1E24B0965F590",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TextRenderingModule.dll_40E1E24B0965F590.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TextRenderingModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_40E1E24B0965F590.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_37AC4D661F130AEF.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TilemapModule.dll_37AC4D661F130AEF",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TilemapModule.dll_37AC4D661F130AEF.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TilemapModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_37AC4D661F130AEF.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_180C7E00E41D33CC.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.TLSModule.dll_180C7E00E41D33CC",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.TLSModule.dll_180C7E00E41D33CC.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.TLSModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_180C7E00E41D33CC.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_4FD1C67E3E95A64E.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UIElementsModule.dll_4FD1C67E3E95A64E",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UIElementsModule.dll_4FD1C67E3E95A64E.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UIElementsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_4FD1C67E3E95A64E.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_D2DF6A2F1C87EE47.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UIModule.dll_D2DF6A2F1C87EE47",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UIModule.dll_D2DF6A2F1C87EE47.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UIModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_D2DF6A2F1C87EE47.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_39958729EB21A96F.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityAnalyticsCommonModule.dll_39958729EB21A96F",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsCommonModule.dll_39958729EB21A96F.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityAnalyticsCommonModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_39958729EB21A96F.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_0C00DCCBC0E4FCB4.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityAnalyticsModule.dll_0C00DCCBC0E4FCB4",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityAnalyticsModule.dll_0C00DCCBC0E4FCB4.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityAnalyticsModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_0C00DCCBC0E4FCB4.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_52D96D8AC5417C08.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityConnectModule.dll_52D96D8AC5417C08",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityConnectModule.dll_52D96D8AC5417C08.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityConnectModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_52D96D8AC5417C08.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 76
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_AAD73416E2CB7582.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityCurlModule.dll_AAD73416E2CB7582",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityCurlModule.dll_AAD73416E2CB7582.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityCurlModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_AAD73416E2CB7582.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_73CB06080CF84AF0.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityTestProtocolModule.dll_73CB06080CF84AF0",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityTestProtocolModule.dll_73CB06080CF84AF0.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityTestProtocolModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_73CB06080CF84AF0.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 78
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_2A43B02A52F78685.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityWebRequestAssetBundleModule.dll_2A43B02A52F78685",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAssetBundleModule.dll_2A43B02A52F78685.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityWebRequestAssetBundleModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_2A43B02A52F78685.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_16531DC457A3D5A9.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityWebRequestAudioModule.dll_16531DC457A3D5A9",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityWebRequestAudioModule.dll_16531DC457A3D5A9.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityWebRequestAudioModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_16531DC457A3D5A9.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 80
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_44EF3FD667222E41.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityWebRequestModule.dll_44EF3FD667222E41",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityWebRequestModule.dll_44EF3FD667222E41.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityWebRequestModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_44EF3FD667222E41.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_78159A930A34AA9E.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityWebRequestTextureModule.dll_78159A930A34AA9E",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityWebRequestTextureModule.dll_78159A930A34AA9E.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityWebRequestTextureModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_78159A930A34AA9E.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_5AB7709C9A50A71A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.UnityWebRequestWWWModule.dll_5AB7709C9A50A71A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.UnityWebRequestWWWModule.dll_5AB7709C9A50A71A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.UnityWebRequestWWWModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_5AB7709C9A50A71A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_0675FAAFCDF2468A.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.VehiclesModule.dll_0675FAAFCDF2468A",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VehiclesModule.dll_0675FAAFCDF2468A.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.VehiclesModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_0675FAAFCDF2468A.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_98EB166FBA8A9D39.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.VFXModule.dll_98EB166FBA8A9D39",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VFXModule.dll_98EB166FBA8A9D39.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.VFXModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_98EB166FBA8A9D39.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_F4F148F2F7AC92EC.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.VideoModule.dll_F4F148F2F7AC92EC",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VideoModule.dll_F4F148F2F7AC92EC.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.VideoModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_F4F148F2F7AC92EC.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_AB4931CBEAF55C70.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.VirtualTexturingModule.dll_AB4931CBEAF55C70",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VirtualTexturingModule.dll_AB4931CBEAF55C70.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.VirtualTexturingModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_AB4931CBEAF55C70.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_25B190B4BE4273BF.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.VRModule.dll_25B190B4BE4273BF",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VRModule.dll_25B190B4BE4273BF.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.VRModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_25B190B4BE4273BF.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_BE4403FCA8E322BB.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.WindModule.dll_BE4403FCA8E322BB",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.WindModule.dll_BE4403FCA8E322BB.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.WindModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_BE4403FCA8E322BB.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_587053B9477CC11D.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEngine.XRModule.dll_587053B9477CC11D",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.XRModule.dll_587053B9477CC11D.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.XRModule.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_587053B9477CC11D.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_75DC86CE93047C8C.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.iOS.Extensions.Common.dll_75DC86CE93047C8C",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.iOS.Extensions.Common.dll_75DC86CE93047C8C.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\PlaybackEngines\\iOSSupport\\UnityEditor.iOS.Extensions.Common.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_75DC86CE93047C8C.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_201ACFCAB9137180.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.iOS.Extensions.Xcode.dll_201ACFCAB9137180",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.iOS.Extensions.Xcode.dll_201ACFCAB9137180.mvfrm\" \"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\PlaybackEngines\\iOSSupport\\UnityEditor.iOS.Extensions.Xcode.dll\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_201ACFCAB9137180.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 33115,
+      "PayloadLength": 7542,
+      "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm",
+      "DisplayName": "MovedFromExtractorCombine Assembly-CSharp.dll",
+      "Action": "\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp\"",
+      "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_24D455816FA73927.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_C1B1780A6A4DCE4A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_7DD0260E4B5A5E18.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.dll_7F565DF221E287BE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_475E5D2A3F2416DA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_A93516BC985AAEEF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.HMISimulatorModule.dll_4F5AFF6E802CB588.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_649B4F9E9AB306F4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_08DFA71BA4315A71.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_6AFDCDE83E10C112.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_E7E4F9C48D7D7BFD.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_C9AD797C080F72C5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_1195AFED97932BE3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_FDBDC3D90B132823.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_4F2359363C518D03.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_B8085015B2FCF59A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_6579E97BCAB97B5D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_9DA3397F3E86E8AF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_D76BCC01C040E89B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_CD6C42098570FBD9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_77BA92E572B78395.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_90DE91051D5E4764.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_4CC8DA0D06980F63.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_CFE7C488351A7747.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_36D021830F37562B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_E5165E917C414E23.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_C75E3A7BDA08DBCE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_E5DF334DD51AB750.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_47F528D417ACA452.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_994F22B5A6AC1F2A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_8EB3013053C876EF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_B1FAA4CA805614A3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_94046299C6294810.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_F7B98C244BB1ECCA.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_6FA8150F5BEFD0B5.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_256644C230013A49.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_F90350EB4DEA9F17.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_3350382C5C2D93C2.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_084763EEFB4C0B28.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InfinityModule.dll_CE21305B9F72A01B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_DE0DF52B9E89C554.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_365D8C38AB529BEB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_FDBAC2BB3DC24939.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_236328E413BD411C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.OpenHarmonyJSModule.dll_C3E0E0DEABECF236.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_EC616C0214BDAAB8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_9E56C9E5D1390B11.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_C46082D613B47B2A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_7E696A763197E0F8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_C0F93A66ED21FDFC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_24F4CB62BE9D5106.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_1462A9A0D1573FF3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_17A27040522E759B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_B7617701D35B8F12.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_E0E5FEB46D218244.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_662A0767BC3A476D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_2C4F8035C23F3AD3.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_08FA947F0D9238E1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_4B9365163B696A57.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_98AFE5E5075629E6.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_ECDC14D52E00A545.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_480CF4CF1B0D3190.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_8FF52B40AA90EAAE.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_40E1E24B0965F590.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_37AC4D661F130AEF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_180C7E00E41D33CC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_4FD1C67E3E95A64E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_D2DF6A2F1C87EE47.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_39958729EB21A96F.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_0C00DCCBC0E4FCB4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_52D96D8AC5417C08.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_AAD73416E2CB7582.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_73CB06080CF84AF0.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_2A43B02A52F78685.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_16531DC457A3D5A9.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_44EF3FD667222E41.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_78159A930A34AA9E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_5AB7709C9A50A71A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_0675FAAFCDF2468A.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_98EB166FBA8A9D39.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_F4F148F2F7AC92EC.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_AB4931CBEAF55C70.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_25B190B4BE4273BF.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_BE4403FCA8E322BB.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_587053B9477CC11D.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_75DC86CE93047C8C.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_201ACFCAB9137180.mvfrm",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
+      "DisplayName": "Copying Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.pdb"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\JsonDotNet\\Assemblies\\Standalone\\Newtonsoft.Json.dll\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\References\\Common.dll\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\References\\log4net.dll\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\References\\protobuf-net.dll\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\References\\Protocol.dll\" -a=\"D:\\unity项目\\mymmo\\Src\\Client\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -s=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\JsonDotNet\\Assemblies\\Standalone\" -s=\"D:\\unity项目\\mymmo\\Src\\Client\\Assets\\References\" -s=\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.62t2\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\unity项目\\mymmo\\Src\\Client\\Library\\ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll",
+        "Assets/References/Common.dll",
+        "Assets/References/log4net.dll",
+        "Assets/References/protobuf-net.dll",
+        "Assets/References/Protocol.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        95
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        6,
+        97
+      ],
+      "DebugActionIndex": 98
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Telemetry.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Tuanjie.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Tuanjie.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Tuanjie.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Tuanjie.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aE-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/References/Common.dll"
+    },
+    {
+      "File": "Assets/References/log4net.dll"
+    },
+    {
+      "File": "Assets/References/protobuf-net.dll"
+    },
+    {
+      "File": "Assets/References/Protocol.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aE-inputdata.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb",
+    ".json"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 6,
+          "ScriptAssembliesAndTypeDB": 98
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aE.dag.json",
+  "PayloadsFile": "D:/unity项目/mymmo/Src/Client/Library/Bee/1900b0aE.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

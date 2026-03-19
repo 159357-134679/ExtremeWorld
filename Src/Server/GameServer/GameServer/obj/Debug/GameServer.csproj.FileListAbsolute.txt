@@ -1,0 +1,4 @@
+D:\unity项目\mmorpg\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.AssemblyReference.cache
+D:\unity项目\mmorpg\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.SuggestedBindingRedirects.cache
+D:\unity项目\mmorpg\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe.config
+D:\unity项目\mmorpg\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
