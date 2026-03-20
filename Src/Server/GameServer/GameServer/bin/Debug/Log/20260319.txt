@@ -1,0 +1,173 @@
+
+2026-03-19 23:40:45,884 [1] [INFO ] [GameServer] ：Game Server Init
+2026-03-19 23:40:46,153 [1] [WARN ] [GameServer] ：Starting Listener...
+2026-03-19 23:40:46,171 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,171 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,171 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,201 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,173 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,173 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,201 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,201 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:40:46,261 [1] [WARN ] [GameServer] ：NetService Started
+2026-03-19 23:42:17,470 [1] [INFO ] [GameServer] ：Game Server Init
+2026-03-19 23:42:17,654 [1] [WARN ] [GameServer] ：Starting Listener...
+2026-03-19 23:42:17,675 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,675 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,675 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,675 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,675 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,676 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,678 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,678 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:42:17,768 [1] [WARN ] [GameServer] ：NetService Started
+2026-03-19 23:45:19,067 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64308]] Connected
+2026-03-19 23:45:19,120 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2026-03-19 23:45:19,226 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user123  Pass:123456
+2026-03-19 23:45:21,982 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:f1dbde94-3f32-4efb-9ef6-d72a21f53510
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\unity项目\mymmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 80
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\unity项目\mymmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2026-03-19 23:47:33,414 [1] [INFO ] [GameServer] ：Game Server Init
+2026-03-19 23:47:33,814 [1] [WARN ] [GameServer] ：Starting Listener...
+2026-03-19 23:47:33,882 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,882 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,882 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,882 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,882 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,885 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,885 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,885 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:47:33,926 [1] [WARN ] [GameServer] ：NetService Started
+2026-03-19 23:48:13,824 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64763]] Connected
+2026-03-19 23:48:13,888 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2026-03-19 23:48:13,991 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user123  Pass:123456
+2026-03-19 23:48:16,520 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:869bb408-fe61-446c-a0f0-516c521b596f
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\unity项目\mymmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 80
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\unity项目\mymmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2026-03-19 23:51:26,950 [1] [INFO ] [GameServer] ：Game Server Init
+2026-03-19 23:51:27,291 [1] [WARN ] [GameServer] ：Starting Listener...
+2026-03-19 23:51:27,331 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,332 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,333 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:51:27,405 [1] [WARN ] [GameServer] ：NetService Started
+2026-03-19 23:51:34,000 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60616]] Connected
+2026-03-19 23:51:34,004 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2026-03-19 23:51:34,144 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user123  Pass:123456
+2026-03-19 23:51:36,834 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:dd266170-8802-4d61-bb6d-2ad9af14ce8d
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\unity项目\mymmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 80
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\unity项目\mymmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2026-03-19 23:53:55,065 [1] [INFO ] [GameServer] ：Game Server Init
+2026-03-19 23:53:55,251 [1] [WARN ] [GameServer] ：Starting Listener...
+2026-03-19 23:53:55,315 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,315 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2026-03-19 23:53:55,357 [1] [WARN ] [GameServer] ：NetService Started
+2026-03-19 23:54:44,442 [3] [WARN ] [GameServer] ：Client[127.0.0.1:61123]] Connected
+2026-03-19 23:54:44,499 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2026-03-19 23:54:44,600 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:user123  Pass:123456
+2026-03-19 23:54:46,938 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.Users' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:68873331-4fd8-492c-9008-e6a7e8461697
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\unity项目\mymmo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 80
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\unity项目\mymmo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2026-03-19 23:55:15,971 [3] [WARN ] [GameServer] ：Client[] Disconnected
