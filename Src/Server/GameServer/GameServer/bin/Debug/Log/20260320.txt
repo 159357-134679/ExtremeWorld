@@ -362,3 +362,18 @@ Error Number:208,State:1,Class:16, ÷¥––√¸¡Ó∂®“Â ±≥ˆ¥Ì°£”–πÿœÍœ∏–≈œ¢£¨«Î≤Œ‘ƒƒ⁄≤ø“
 2026-03-20 14:40:38,426 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:25
 2026-03-20 14:40:38,540 [5] [INFO ] [GameServer] £∫UserRegisterRequest: User:user123  Pass:123456
 2026-03-20 14:41:01,630 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2026-03-20 21:19:59,993 [1] [INFO ] [GameServer] £∫Game Server Init
+2026-03-20 21:20:00,207 [1] [WARN ] [GameServer] £∫Starting Listener...
+2026-03-20 21:20:00,254 [5] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,254 [9] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,254 [7] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,256 [8] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,256 [11] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,257 [10] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,257 [12] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,257 [6] [WARN ] [GameServer] £∫MessageDistribute thread start
+2026-03-20 21:20:00,323 [1] [WARN ] [GameServer] £∫NetService Started
+2026-03-20 21:20:24,084 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:50084]] Connected
+2026-03-20 21:20:24,132 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:25
+2026-03-20 21:20:24,258 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:user123  Pass:123456
+2026-03-20 21:20:58,923 [13] [WARN ] [GameServer] £∫Client[] Disconnected
