@@ -45,6 +45,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -137,6 +138,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:RH_SerializedDictionary
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/References/Common.dll"
@@ -357,6 +359,10 @@
 -r:"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/UnityEditor.WeixinMiniGame.Extensions.dll"
 -r:"C:/Program Files/Tuanjie/Hub/Editor/2022.3.62t2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/PackageCache/cn.tuanjie.ai.graph@1.0.5/Runtime/EditorUtilities/Plugins/Ookii.Dialogs.dll"
+-r:"Library/PackageCache/cn.tuanjie.ai.graph@1.0.5/Runtime/EditorUtilities/Plugins/System.Windows.Forms.dll"
+-r:"Library/PackageCache/cn.tuanjie.ai.graph@1.0.5/ThirdParty/litedb.5.0.16/lib/netstandard1.3/LiteDB.dll"
+-r:"Library/PackageCache/cn.tuanjie.ai.graph@1.0.5/ThirdParty/Plugins/UltraLiteDB.dll"
 -r:"Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
 -r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll"
 -r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll"
@@ -364,6 +370,8 @@
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.ref.dll"
