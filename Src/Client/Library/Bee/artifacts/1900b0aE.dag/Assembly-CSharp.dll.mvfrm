@@ -3,6 +3,13 @@ UnityEditor
 GridBrushEditor
 GridBrushEditorBase
 GridSelection
+RegisterGenericJobTypeAttribute
+Unity
+Entities
+DataStreamReader
+Networking
+Transport
+DataStreamWriter
 MaterialQuality
 Utilities
 MaterialQualityUtilities

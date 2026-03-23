@@ -570,7 +570,7 @@ ModelImporter:
     feetSpacing: 0
     globalScale: 1
     rootMotionBoneName: 
-    defaultPoseIndex: -1
+    defaultPoseIndex: 0
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1

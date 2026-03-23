@@ -39,4 +39,5 @@ public class UICharacterView : MonoBehaviour {
             characters[i].SetActive(i == this.currentCharacter);
         }
     }
+    
 }
